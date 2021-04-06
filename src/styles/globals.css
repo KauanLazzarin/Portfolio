@@ -1,0 +1,32 @@
+:root {
+  --bg-blue: #D4F1F4;
+  --blue-green: #75E6DA;
+  --blue-medium: #189AB4;
+  --blue-dark: #05445E;
+  --brown: #942E2E;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
