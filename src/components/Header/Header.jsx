@@ -1,16 +1,16 @@
-import { HeaderContainer, HeaderLeftContent, HeaderSmallText, HeaderTitle, RightHeaderContent, RightHeaderImage } from "./styles";
+import styles from './../../styles/Header.module.css';
 
 export default function Header () {
     return (
-        <HeaderContainer>
-            <HeaderLeftContent>
-                <HeaderTitle>Kauan Lazzarin</HeaderTitle>
-                <HeaderSmallText>FullStack Developer</HeaderSmallText>
-            </HeaderLeftContent>
+        <header className={styles.pageHeader}>
+            <div>
+                <h1>Kauan Lazzarin</h1>
+                <strong>FullStack Developer</strong>
+            </div>
 
-            <RightHeaderContent>
-                <RightHeaderImage src="assets/dev-draw.svg" alt="dev-draw"/>
-            </RightHeaderContent>
-        </HeaderContainer>
+            <div>
+                <img src="assets/dev-draw.svg" alt="dev-draw"/>
+            </div>
+        </header>
     )
 };
