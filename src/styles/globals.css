@@ -4,7 +4,10 @@
   --blue-medium: #189AB4;
   --blue-dark: #05445E;
   --brown: #942E2E;
+}
 
+html {
+  scroll-behavior: smooth;
 }
 
 * {
