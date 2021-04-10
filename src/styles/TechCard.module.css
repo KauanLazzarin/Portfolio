@@ -1,0 +1,62 @@
+.techCard {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-10vh);
+    opacity: 0;
+
+    animation: slideCardDown .3s forwards ease-in-out;
+}
+
+.techCard .cardHeader {
+    height: 15vh;
+    width: 100%;
+    background: url('./../../public/assets/mobile-about-card-header-bg.svg');   
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(3vh);
+}
+
+.techCard .cardHeader h2 {
+    font-size: 42px;
+    color: var(--blue-black);
+    font-family: 'Permanent Marker';
+    font-weight: normal;
+}
+
+.techCard .techsList {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10vh 0 4vh;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-black);
+    flex-direction: column;
+}
+
+.techCard .techsList ul {
+    width: 100%;
+    text-align: center;
+}
+
+.techCard .techsList ul li {
+    font-size: 40px;
+    margin: 1.5vh 0;
+    font-family: 'Caveat';
+    color: var(--bg-blue);
+}
+
+@keyframes slideCardDown {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}

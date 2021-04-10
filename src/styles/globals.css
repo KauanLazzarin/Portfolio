@@ -2,7 +2,8 @@
   --bg-blue: #D4F1F4;
   --blue-green: #75E6DA;
   --blue-medium: #189AB4;
-  --blue-dark: #05445E;
+  --blue-dark: #2f2e41;
+  --blue-black: #3f3d56;
   --brown: #942E2E;
 }
 
@@ -24,11 +25,6 @@ body {
 a {
   text-decoration: none;
 }
-
-li {
-  list-style: none;
-}
-
 button {
   cursor: pointer;
 }
