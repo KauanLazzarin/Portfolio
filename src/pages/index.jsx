@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import AboutMe from '../components/About-Me/AboutMe'
 import Header from '../components/Header/Header'
-import MobileTechs from '../components/Mobile-Techs/MobileTechs'
+import Techs from '../components/Techs/Techs'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 
       <Header /> 
       <AboutMe />
-      <MobileTechs />
+      <Techs />
     </div>
   )
 }
