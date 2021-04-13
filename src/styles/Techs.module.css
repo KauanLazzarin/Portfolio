@@ -1,6 +1,7 @@
 .techsContainer {
     width: 100%;
     margin-top: 10vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +12,8 @@
     margin-top: 5vh;
     width: 100%;
     text-align: center;
-    font-size: 42px;
+    font-size: 32px;
+    line-height: 47px;
     font-family: 'Gloria Hallelujah';
     font-weight: bold;
     color: var(--blue-black);
@@ -40,10 +42,6 @@
     width: 7vw;
 }
 
-.techsContainer button:checked .techsContainer button {
-    background-color: red;
-}
-
 .techsContainer .techSection {
     width: 100%;
     display: flex;
@@ -58,6 +56,10 @@
         display: grid;
         margin: 3vh 0;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .sectionTitle {
+        font-size: 52px;
     }
 
     .techsContainer .techSection {

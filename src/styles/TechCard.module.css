@@ -1,5 +1,6 @@
 .techCard {
     width: 90%;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,8 @@
     width: 100%;
     background: url('./../../public/assets/mobile-about-card-header-bg.svg');   
     background-size: cover;
-    background-position: center; 
+    background-position: center -10px;
+    background-repeat: no-repeat; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,10 +51,12 @@
 }
 
 .techCard .techsList ul li {
-    font-size: 40px;
+    font-size: 32px;
     margin: 1.5vh 0;
-    font-family: 'Caveat';
+    font-family: 'Gloria Hallelujah';
     color: var(--bg-blue);
+    font-weight: normal;
+    line-height: 40px;
 }
 
 @keyframes slideCardDown {
@@ -65,7 +69,6 @@
 @media (min-width: 850px) {
     .techCard {
         width: 80%;
-        position: relative;
         bottom: 3vh;
     }
 

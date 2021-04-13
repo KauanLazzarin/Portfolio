@@ -10,7 +10,7 @@ export default function TechCard ({techs, children}) {
             <div className={styles.techsList}>
                 <ul>
                 {
-                    techs.map((tech) => <li key={tech}>{tech}</li>)
+                    techs.map((tech) => <li key={tech}>* {tech}</li>)
                 }
                 </ul>
             </div>

@@ -1,0 +1,72 @@
+.projectsContainer {
+    width: 98%;
+    margin: 10vh auto;
+}
+
+.cardsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 28%;
+    height: 86vh;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:15px;
+    margin: 0 20px;
+}
+
+.card .cardBody h3 {
+    margin:2vh 0 5vh 0;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah';
+    color: var(--blue-green);
+}
+
+.card  .cardBody p {
+    font-size: 40px;
+    width: 100%;
+    height: 20vh;
+    margin:3vh 0 5vh 0;
+    font-family: 'Caveat';
+    color: var(--blue-green);
+}
+
+.card .cardBody a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .cardBody a img {
+    width: 20vw;
+    margin-bottom: 5vh;
+    max-width: 120px;
+}
+
+.cardHeader {
+    padding: 15px;
+    background-color: rgb(142, 16, 226);
+    box-shadow: 1px 1px 10px 0.2px rgb(40, 8, 110);
+    width: 100%;
+    height: 50vh;
+}
+
+.cardBody {
+    background-color: var(--blue-dark);
+    width:100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 10px 0.5px rgb(74, 74, 110);
+}
