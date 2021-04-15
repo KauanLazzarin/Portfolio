@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects'
 import Techs from '../components/Techs/Techs'
 
 export default function Home() {
+
   return (
     <div>
       <Head>

@@ -2,7 +2,7 @@ import styles from './../../styles/AboutMe.module.css';
 
 export default function AboutMe () {
     return (
-        <>
+        <article className={styles.cardContainer}>
             <div className={styles.aboutCardHeader}>
                 <h1>About Me</h1>
             </div>
@@ -11,11 +11,15 @@ export default function AboutMe () {
                 
 
                 <div className={styles.cardInfo}>
-                    <img src="/assets/me.jpeg" />
+                    <div className={styles.imageBorder}>
+                        <img src="/assets/me.jpeg" />
+                    </div>
                     <p>
                         I've started studying web development on January 2020,
                         since then I'm studying almost every single day to improve
-                        my skills. <br/>
+                        my skills. My stack is variable, I can use the basic of web development 
+                        (HTML5, CSS3, JavaScript) or a framework / library (ReactJS, NextJS)
+                        <br/>
                         I'm 17 and I current live in Ouro Preto d'Oeste, Rondônia, Brazil
                     </p>
                 </div>
@@ -67,6 +71,6 @@ export default function AboutMe () {
                     </div>
                 </div>
             </main>
-        </>
+        </article>
     )
 };

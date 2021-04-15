@@ -1,13 +1,17 @@
+.cardContainer {
+    width: 100%;
+}
+
 .aboutCardBody {
     margin-top: 20vh;
     width: 100%;
-    height: 90vh;
+    padding: 5vh 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
-    background-color: var(--brown);
+    background-color: var(--blue-black);
 }
 
 .aboutCardHeader {
@@ -29,7 +33,7 @@
     font-weight: normal;
     filter: drop-shadow(2px 2px 4px var(--bg-blue));
     font-size: 45px;
-    color: var(--brown);
+    color: var(--blue-black);
 }
 
 .aboutCardBody .cardInfo {
@@ -44,11 +48,23 @@
 
 .aboutCardBody .cardInfo img {
     border-radius: 50%;
-    box-shadow: 1px 1px 10px 1px rgba(223, 217, 217, 0.445);
     width: 25vw;
     height: 25vw;
+    min-width: 120px;
+    min-height: 120px;
     max-width: 200px;
     max-height: 200px;
+    object-fit: cover;
+}
+
+.aboutCardBody .cardInfo .imageBorder {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(42,130,149);
+    background: linear-gradient(52deg, rgb(13, 1, 54) 10%, rgb(186, 201, 255) 82%);
+    border-radius: 120px;
 }
 
 .aboutCardBody p {
@@ -56,7 +72,7 @@
     width: 70%;
     font-size: 23px;
     font-weight: normal;
-    line-height: 40px;
+    line-height: 45px;
     font-family: 'Gloria Hallelujah';
     color: var(--bg-blue);
 }
@@ -74,7 +90,7 @@
 .aboutCardBody .mobileIcon  img {
     width: 7vw;
     max-width: 60px;
-    min-width: 30px;
+    min-width: 40px;
 }
 
 .aboutCardBody .mobileIcon{
@@ -92,6 +108,7 @@
 
 @media (min-width: 750px) {
     .aboutCardBody {
+        padding: 10vh 0;
         background: url('./../../public/assets/about-bg-desktop.svg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -167,5 +184,23 @@
         font-family: 'Gloria Hallelujah';
         font-weight: bold;
         color: var(--blue-dark);
+    }
+}
+
+@media (min-width: 1200px) {    
+    
+    .aboutCardBody .cardInfo {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    .aboutCardBody p {
+        font-size: 32px;
+        line-height: 65px;
+    }
+
+    .aboutCardBody .cardInfo img {
+        max-width: 250px;
+        max-height: 250px;
     }
 }

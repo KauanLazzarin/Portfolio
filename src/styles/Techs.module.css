@@ -1,7 +1,7 @@
 .techsContainer {
     width: 100%;
-    margin-top: 10vh;
-    height: 100vh;
+    margin: 34vh 0;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,11 +29,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--brown);
     color: var(--bg-blue);
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Caveat';
     font-weight: bold;
+    background: rgb(42,130,149);
+    background: linear-gradient(52deg, rgba(42,130,149,1) 10%, rgba(18,32,98,1) 82%);
     box-shadow: 1px 1px 10px 4px var(--blue-green);
 }
 
