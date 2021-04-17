@@ -27,6 +27,7 @@ export default function Projects () {
 
     return (
        <main className={styles.projectsContainer}>
+           <h2>Some side projects ⭐</h2>
            <div className={styles.cardsContainer}>
                {
                    projectsData.map((project) => {
@@ -37,6 +38,7 @@ export default function Projects () {
                                         backgroundImage: `url(${project.img})`,
                                         backgroundRepeat: 'no-repeat',
                                         backgroundPosition: 'center',
+                                        objectFit: 'cover',
                                         backgroundSize: '94%',
                                     }
                                 }>

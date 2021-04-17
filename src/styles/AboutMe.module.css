@@ -104,7 +104,8 @@
 
 @media (min-width: 750px) {
     .aboutCardBody {
-        padding: 10vh 0;
+        margin-top: 20vh;
+        padding: 30vh 0;
         background: url('./../../public/assets/about-bg-desktop.svg');
         background-repeat: no-repeat;
         background-size: cover;

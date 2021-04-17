@@ -1,6 +1,14 @@
 .projectsContainer {
-    width: 98%;
+    width: 100%;
     margin: 10vh auto;
+}
+
+.projectsContainer h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 8vw;
+    font-family: 'Gloria Hallelujah';
+    color: var(--blue-black);
 }
 
 .cardsContainer{
@@ -18,6 +26,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     padding:15px;
     margin: 10vh auto;
 }
@@ -30,9 +39,8 @@
 }
 
 .card  .cardBody p {
-    font-size: 28px;
+    font-size: 40px;
     width: 100%;
-    height: 20vh;
     margin:3vh 0 5vh 0;
     font-family: 'Caveat';
     color: var(--blue-green);
@@ -52,14 +60,15 @@
 }
 
 .cardHeader {
-    background-color: rgb(142, 16, 226);
+    background-color: rgb(124, 7, 192);
     box-shadow: 1px 1px 10px 0.2px rgb(40, 8, 110);
     width: 100%;
     height: 20vh;
 }
 
 .cardBody {
-    background-color: var(--blue-dark);
+    background: rgb(42,130,149);
+    background: linear-gradient(52deg, rgb(90, 66, 168) 10%, rgb(8, 20, 61) 82%);
     width:100%;
     padding: 15px;
     display: flex;
@@ -70,6 +79,29 @@
     box-shadow: 1px 1px 10px 0.5px rgb(74, 74, 110);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 200px) and (min-width: 1200px) {
+    .projectsContainer h2 {
+        border-top: 6px solid var(--blue-medium);
+        padding-top:5vh;
+        font-size: 3vw;
+        background-color: var(--blue-green);
+    }
+    .cardsContainer {
+        background-color: var(--blue-green);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .card{
+        width: 40vw;
+        max-width: 750px;
+    }
+
+    .card .cardBody {
+        height: 70vh;
+    }
+
+    .card .cardHeader {
+        height: 30vh;
+    }
 }

@@ -12,7 +12,7 @@ export default function AboutMe () {
 
                 <div className={styles.cardInfo}>
                     <div className={styles.imageBorder}>
-                        <img src="/assets/me.jpeg" />
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG_2byt9a0nxw/profile-displayphoto-shrink_200_200/0/1618251826799?e=1623888000&v=beta&t=08hvoHKYDDYAIFaQcYDseGm_ukroVjfD2Jiy4L-Akd0" />
                     </div>
                     <p>
                         I've started studying web development on January 2020,
