@@ -7,7 +7,7 @@ import Techs from '../components/Techs/Techs'
 export default function Home() {
 
   return (
-    <div>
+    <>
       <Head>
         <title>Kauan Lazzarin || Desenvolvedor FullStack</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -18,6 +18,6 @@ export default function Home() {
       <AboutMe />
       <Techs />
       <Projects />
-    </div>
+    </>
   )
 }

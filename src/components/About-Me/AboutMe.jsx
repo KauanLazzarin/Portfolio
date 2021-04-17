@@ -2,7 +2,7 @@ import styles from './../../styles/AboutMe.module.css';
 
 export default function AboutMe () {
     return (
-        <article className={styles.cardContainer}>
+        <>
             <div className={styles.aboutCardHeader}>
                 <h1>About Me</h1>
             </div>
@@ -71,6 +71,6 @@ export default function AboutMe () {
                     </div>
                 </div>
             </main>
-        </article>
+        </>
     )
 };

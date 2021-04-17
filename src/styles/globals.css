@@ -18,13 +18,14 @@ html {
   box-sizing: border-box;
 }
 
-body {
+body {  
   background-color: var(--bg-blue);
 }
 
 a {
   text-decoration: none;
 }
+
 button {
   cursor: pointer;
 }
