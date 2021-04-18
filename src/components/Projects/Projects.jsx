@@ -5,7 +5,7 @@ export default function Projects () {
         {
             title: 'Proffy',
             img: '/assets/proffy.png',
-            description: 'Projeto desenvolvido durante a segunda edição da Next Level Week',
+            description: 'This project has been developed in the second edition of Next Level Week',
             url: 'https://github.com/KauanLazzarin/proffy'
         },
 
@@ -13,14 +13,14 @@ export default function Projects () {
         {
             title: 'EasyBank Landing Page',
             img: '/assets/easybank-logo.svg',
-            description: 'Desafio do site FrontEnd Mentor feito em React',
+            description: 'FrontEnd Mentor that I made with React',
             url: 'https://github.com/KauanLazzarin/EasyBank-Landing-Page-React'
         },
 
         {
             title: 'MoveIt',
             img: '/assets/moveit.png',
-            description: 'Projeto desenvolvido durante a quarta edição da Next Level Week',
+            description: 'Project developed in the fourthy edition of Next Level Week',
             url: 'https://github.com/KauanLazzarin/moveit-next'
         }
     ]
@@ -52,9 +52,12 @@ export default function Projects () {
                                         <img src="/icons/github-icon-transparent.svg" alt="project link" />
                                     </a>
                                 </div>
+
                             </div>
+                            
                         )
                    })
+                   
                }
            </div>
        </main> 

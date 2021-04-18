@@ -17,8 +17,11 @@ export default function AboutMe () {
                     <p>
                         I've started studying web development on January 2020,
                         since then I'm studying almost every single day to improve
-                        my skills. My stack is variable, I can use the basic of web development 
-                        (HTML5, CSS3, JavaScript) or a framework / library (ReactJS, NextJS)
+                        my skills. My stack is variable, for the Front-End I can use the basic of web development 
+                        (HTML5, CSS3, JavaScript) or a framework / library (ReactJS, NextJS) <br/>
+                        And to the backend (REST API's, client-server applications) I usually use NodeJS,
+                        Express and a NoSQL database. <br/>
+                        I current work as a freelancer, but I'm open for any job offer 😉 
                         <br/>
                         I'm 17 and I current live in Ouro Preto d'Oeste, Rondônia, Brazil
                     </p>
